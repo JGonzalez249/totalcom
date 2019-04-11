@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Archivo+Narrow|Play');
+
+body {
+    background: url(../images/architecture.jpg) 50% fixed;
+}
+
+
+header {
+    background: url(../images/ballshape.jpg) center 160px rgb(160, 160, 160);
+    text-align: right;
+    font-family:Play, sans-serif;
+    font-size: 2em;
+    font-display: auto;
+    font-weight:bolder;
+    color: midnightblue;
+    padding-right: 1em;
+    margin-bottom: inherit;
+
+}
+
+header a {
+    font-family: Archivo Narrow, monospace, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px black;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+
+a {
+    text-decoration: none;
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: brown;
+}
+
+a:hover {
+    background: white;
+    color: crimson;
+}
+
+a:active {
+    color: orangered;
+}
+
+article {
+    background: rgb(255, 255, 255, .85);
+    padding: .2em;
+    padding-left: 1em;
+    
+}
+
+article p {
+    text-align: left;
+    text-overflow: inherit;
+}
+
+hr {
+    border-width: thick;
+}
+
+h2 {
+    font-family: Anton, sans-serif;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: Anton, sans-serif;
+    text-transform: uppercase;
+}
+p {
+    font-family: Verdana, sans-serif;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+}
+
+ul li {
+    font-family: Verdana, sans-serif;
+    font-size: 1.2em;
+    text-align: left;
+    padding-bottom: .7em;
+    font-weight: 600;
+}
+
+.textbox1 {
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    margin-bottom: -20px;
+    margin-top: inherit;
+    margin-left: inherit;
+    margin-right: inherit;
+    
+}
+
+footer {
+    background: rgb(255, 255, 255, .75);
+    box-sizing: border-box;
+    width: 100%;
+    padding: .2em;
+    padding-left: 1em;
+    position: relative;
+    bottom: 20px;
+    top:5px;
+    text-decoration: line-through;
+    
+}
+
+.world img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+small {
+    color:red;
+}
